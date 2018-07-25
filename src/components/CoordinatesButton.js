@@ -3,7 +3,7 @@ import React from 'react';
 export default class CoordinatesButton extends React.Component{
 
   fun = (event) => {
-    this.props.onReceiveCoordinates(event.screenX, event.screenY)
+    this.props.onReceiveCoordinates([event.screenX, event.screenY])
   }
 
   render(){
