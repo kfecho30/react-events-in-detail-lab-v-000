@@ -7,8 +7,6 @@ export default class DelayedButton extends React.Component{
       this.props.onDelayedClick(event);
       },
       this.props.delay);
-    }
-    this.props.onReceiveCoordinates([event.screenX, event.screenY])
   }
 
   render(){
